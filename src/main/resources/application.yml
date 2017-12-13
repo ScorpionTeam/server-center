@@ -1,0 +1,11 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: server-center
+eureka:
+  client:
+    fetch-registry: false                 #关闭检索服务
+    register-with-eureka: false           #关闭自己想自己注册
+  server:
+    enable-self-preservation: false       #关闭自我保护

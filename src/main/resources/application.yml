@@ -9,3 +9,5 @@ eureka:
     register-with-eureka: false           #关闭自己自己注册
   server:
     enable-self-preservation: false       #关闭自我保护
+  instance:
+    hostname:
